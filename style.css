@@ -1,6 +1,24 @@
-h1 {
+/* 
+    選取器
+    1. 標籤 tag
+    2. 類別 class (可重複)
+    3. id (不可重複)
+
+    命名規範
+    1. 不可使用數字開頭
+    2. 符號只可使用-,_
+*/
+p {
     color: red;
 }
-p {
+
+.abc {
+    color: greenyellow;
+}
+
+#xyz {
     color: pink;
+}
+#xyz-2 {
+    
 }
