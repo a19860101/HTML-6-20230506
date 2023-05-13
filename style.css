@@ -7,18 +7,26 @@
     命名規範
     1. 不可使用數字開頭
     2. 符號只可使用-,_
+
+    權重
+    影響的元素愈少，權重愈重，愈優先套用
+    物以稀為貴
+
+    嵌入式樣式 > id > class > tag
+
+    當權重相同時，則判斷順序
 */
-p {
+h1 {
     color: red;
 }
 
 .abc {
     color: greenyellow;
 }
+.qqq {
+    color: goldenrod;
+}
 
 #xyz {
     color: pink;
-}
-#xyz-2 {
-    
 }
