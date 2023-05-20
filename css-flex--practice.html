@@ -12,6 +12,10 @@
             margin: 0;
             padding: 0;
         }
+        html {
+            scroll-behavior: smooth;
+
+        }
         body {
             font-family: 'nunito','微軟正黑體',sans-serif;
         }
@@ -22,6 +26,8 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            position: fixed;
+            z-index: 99;
         }
         nav a {
             color: #eee;
@@ -121,9 +127,9 @@
     <nav>
         <a href="#" class="nav-logo">LOGO</a>
         <div class="menu">
-            <a href="#" class="nav-link">Link</a>
-            <a href="#" class="nav-link">Link</a>
-            <a href="#" class="nav-link">Link</a>
+            <a href="#section-1" class="nav-link">Section 1</a>
+            <a href="#section-2" class="nav-link">Section 2</a>
+            <a href="#section-3" class="nav-link">Section 3</a>
         </div>
     </nav>
     <header id="hero">
