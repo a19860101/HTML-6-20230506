@@ -52,6 +52,38 @@
             object-fit: cover;
             object-position: center;
         }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+        }
+      
+        section {
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+        #section-1 {
+            background-color: #fffef4;
+        }
+        #section-2 {
+            background-color: #f4feff;
+        }
+        #section-3 {
+            background-color: #fbf4ff;
+        }
+        .col-two {
+            flex:1 1 600px;
+            padding: 15px;
+        }
+        .col-three {
+            flex:1 0 400px;
+            padding: 15px;
+        }
+        .col-four {
+            flex:1 0 300px;
+            padding: 15px;
+        }
     </style>
 </head>
 <body>
@@ -66,5 +98,83 @@
     <header id="hero">
         <img src="images/cat.jpg" alt="">
     </header>
+    <section id="section-1">
+        <div class="container">
+            <div class="col-three">
+                <h2>title</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum consectetur nostrum necessitatibus quae praesentium tempora, architecto veniam rerum assumenda! A et deserunt vel molestias ducimus quasi ipsum ab nulla voluptatum.
+                </p>
+            </div>
+            <div class="col-three">
+                <h2>title</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum consectetur nostrum necessitatibus quae praesentium tempora, architecto veniam rerum assumenda! A et deserunt vel molestias ducimus quasi ipsum ab nulla voluptatum.
+                </p>
+            </div>
+            <div class="col-three">
+                <h2>title</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum consectetur nostrum necessitatibus quae praesentium tempora, architecto veniam rerum assumenda! A et deserunt vel molestias ducimus quasi ipsum ab nulla voluptatum.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="section-2">
+        <div class="container">
+            <div class="col-four">
+                <h2>title</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum consectetur nostrum necessitatibus quae praesentium tempora, architecto veniam rerum assumenda! A et deserunt vel molestias ducimus quasi ipsum ab nulla voluptatum.
+                </p>
+            </div>
+            <div class="col-four">
+                <h2>title</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum consectetur nostrum necessitatibus quae praesentium tempora, architecto veniam rerum assumenda! A et deserunt vel molestias ducimus quasi ipsum ab nulla voluptatum.
+                </p>
+            </div>
+            <div class="col-four">
+                <h2>title</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum consectetur nostrum necessitatibus quae praesentium tempora, architecto veniam rerum assumenda! A et deserunt vel molestias ducimus quasi ipsum ab nulla voluptatum.
+                </p>
+            </div>
+            <div class="col-four">
+                <h2>title</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum consectetur nostrum necessitatibus quae praesentium tempora, architecto veniam rerum assumenda! A et deserunt vel molestias ducimus quasi ipsum ab nulla voluptatum.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="section-3">
+        <div class="container">
+            <div class="col-two">
+                <h2>title</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum consectetur nostrum necessitatibus quae praesentium tempora, architecto veniam rerum assumenda! A et deserunt vel molestias ducimus quasi ipsum ab nulla voluptatum.
+                </p>
+            </div>
+            <div class="col-two">
+                <h2>title</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum consectetur nostrum necessitatibus quae praesentium tempora, architecto veniam rerum assumenda! A et deserunt vel molestias ducimus quasi ipsum ab nulla voluptatum.
+                </p>
+            </div>
+            <div class="col-two">
+                <h2>title</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum consectetur nostrum necessitatibus quae praesentium tempora, architecto veniam rerum assumenda! A et deserunt vel molestias ducimus quasi ipsum ab nulla voluptatum.
+                </p>
+            </div>
+            <div class="col-two">
+                <h2>title</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum consectetur nostrum necessitatibus quae praesentium tempora, architecto veniam rerum assumenda! A et deserunt vel molestias ducimus quasi ipsum ab nulla voluptatum.
+                </p>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
