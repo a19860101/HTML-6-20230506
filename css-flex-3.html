@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 1200px;
+            /* height: 600px; */
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            background-color: #aaa;
+
+            /* justify-content: center; */
+            /* align-items: center; */
+
+            /* 
+                當flex-direction是row時
+                justify-content表水平對齊
+                align-items表垂直對齊
+                flex-basis表寬度
+
+                當flex-direction是column時
+                justify-content表垂直對齊
+                align-items表水平對齊
+                flex-basis表高度
+            */
+        }
+        .box {
+            /* width: 300px; */
+            flex-basis: calc(100% / 4);
+            flex-shrink: 0;
+            flex-grow: 0;
+
+            /* 
+                flex-shrink 預設為開啟，但會跟flex-wrap互斥
+                (flex-wrap為wrap時，shrink會失效)
+                flex-grow 預設為關閉
+            */
+
+            background-color: #fa0;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2>title 1</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi dolore fugit fuga omnis fugiat excepturi qui, quo eveniet harum ad, beatae repellat quis laboriosam et voluptates reiciendis temporibus. Esse, dolores.
+            </p>
+        </div>
+        <div class="box">
+            <h2>title 2</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi dolore fugit fuga omnis fugiat excepturi qui, quo eveniet harum ad, beatae repellat quis laboriosam et voluptates reiciendis temporibus. Esse, dolores.
+            </p>
+        </div>
+        <div class="box">
+            <h2>title 3</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi dolore fugit fuga omnis fugiat excepturi qui, quo eveniet harum ad, beatae repellat quis laboriosam et voluptates reiciendis temporibus. Esse, dolores.
+            </p>
+        </div>
+        <div class="box">
+            <h2>title 4</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi dolore fugit fuga omnis fugiat excepturi qui, quo eveniet harum ad, beatae repellat quis laboriosam et voluptates reiciendis temporibus. Esse, dolores.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
